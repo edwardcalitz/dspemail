@@ -1,0 +1,262 @@
+* { 
+		margin:0;
+		padding:0;
+	}
+	* { font-family: "Source Sans Pro","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+	img { 
+		max-width: 100%; 
+	}
+	body {
+		-webkit-font-smoothing:antialiased; 
+		-webkit-text-size-adjust:none; 
+		width: 100%!important; 
+		height: 100%;
+		background-color: #F1EEEB;
+	}
+
+
+	table.head-wrap 
+	{ 
+		width: 100%; 
+		min-height: 150px;
+		height: 150px;
+		background-image: url('https://www.absa.co.za/content/dam/south-africa/absa/dsp/header.jpg');
+		background-size: cover;
+		background-position: center top;
+		background-color: #252E3C;
+	}
+
+	.header.container table td.logo { padding: 15px; }
+	.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+	table.body-wrap 
+	{ 
+		width: 100%;
+		background-color: #fff;
+		padding: 40px 0;
+	}
+
+
+	.footer-wrap
+	{
+		background-color: #F1EEEB;
+		min-height: 100px;
+		margin-top:20px;
+		padding: 10px;
+		padding-top: 30px;
+	}
+	table.footer-wrap { width: 100%;	clear:both!important;
+	}
+	.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+	.footer-wrap .container td.content p {
+		font-size:10px;
+		font-weight: bold;
+		
+	}
+
+
+	h1,h2,h3,h4,h5,h6,td {
+	font-family: "Source Sans Pro","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#8C8C8C;
+	}
+	
+
+	h1 { font-weight:500; font-size: 18px;}
+	
+
+
+	
+	
+	.container {
+		display:block!important;
+		max-width:600px!important;
+		margin:0 auto!important; /* makes it centered */
+		clear:both!important;
+	}
+
+	
+	.content {
+		padding:30px;
+		max-width:600px;
+		margin:0 auto;
+		display:block; 
+		text-align: left;
+	}
+
+	.content table { width: 100%; }
+
+
+	
+	.clear { display: block; clear: both; }
+
+
+	.header
+	{
+		margin: 0px 0;
+		padding: 0 35px;
+		min-width: 80%;
+		max-width: 80%;
+	}
+	.center
+	{
+		text-align: center;
+	}
+	.left
+	{
+		text-align: left;
+		margin-left: 20px;
+	}
+	.copy
+	{
+		font-size: 15px;
+		padding: 10px 0;
+		text-align: left !important;
+		color: #8C8C8C;
+	}
+	.copy.no-pad
+	{
+		padding: 0;
+	}
+	.copy-list
+	{
+		font-size: 15px;
+		padding: 8px 0;
+		text-align: left !important;
+		color: #8C8C8C;
+	}
+	.copy-info
+	{
+		font-size: 12px;
+		padding-top: 5px;
+		margin-left: 28px;
+		text-align: left !important;
+		color: #8C8C8C;
+	}
+	strong.copy
+	{
+		font-size: 12px;
+	}
+	.footer-wrap .container
+	{
+		text-align: center;
+		min-width: 100%;
+	}
+	.disclaimer
+	{
+		padding-top: 50px;
+	}
+	.disclaimer, .disclaimer *
+	{
+		font-size: 10px;
+		color: #555555;
+		padding-top: 5px;
+	}
+	.blue
+	{
+		color: #596275!important;
+		text-decoration: none!important;
+	}
+	.border
+	{
+		border: 1px solid #EBF0F3;
+		display: inline-block;
+		margin-top: 20px;
+		border-radius: 5px;
+	}
+	.phone
+	{
+		height: 20px;
+		width: auto;
+		/*width: 12px;*/
+		margin-right: 10px;
+		position: relative;
+		top: 0px;
+	}
+	.number
+	{
+		color: #596275;
+		font-size: 26px;
+		font-weight: 400;
+		text-decoration:none!important;
+		color:#000000;
+		border:none;
+		z-index: 9999;
+		padding-left: 6px;
+	}
+	.number a
+	{
+		text-decoration: none !important;
+		color: #596275;
+	}
+	.number-label
+	{
+		font-size: 12px;
+		color: #8C8C8C;
+		padding-bottom: 5px;
+		text-align: left;
+	}
+	.logo-div
+	{
+		padding-top: 50px;
+		text-align: right;
+	}
+	.logo
+	{
+		height: 30px;
+		display: inline-block;
+		margin-right: 20px;
+	}
+	.tick
+	{
+		height: 11px;
+		width:1 4px;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	a span
+	{
+  		position: static !important;
+  		clip: auto;
+	}
+
+	.accessible .number a
+	{
+		color: #252E3C;
+	}
+	.accessible .number-label
+	{
+		color: #252E3C;
+		
+	}
+
+	.accessible .copy,
+	.accessible .copy-list,
+	.accessible .copy-info,
+	.accessible h1, .accessible td 
+	{
+		color: #596275;
+	}
+	
+	.accessible .disclaimer, .accessible .disclaimer *
+	{
+		color: #252E3C;
+		padding-top: 5px;
+	}
+	.accessible .blue
+	{
+		color: #252E3C!important;
+	}
+	
+	ul{
+		margin-left:20px;
+	}
+	
+	.blue{
+		text-align: left;
+		margin: 0px 0;
+		padding: 0 35px;
+		min-width: 80%;
+		max-width: 80%;
+	}
+	
