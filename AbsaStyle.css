@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- Do not remove this meta tag! -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ABSA - Digital Sales Platform Notification</title>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">	
+<style  type="text/css">
+
+	* { 
+		margin:0;
+		padding:0;
+	}
+	* { font-family: "Source Sans Pro","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+	img { 
+		max-width: 100%; 
+	}
+	body {
+		-webkit-font-smoothing:antialiased; 
+		-webkit-text-size-adjust:none; 
+		width: 100%!important; 
+		height: 100%;
+		background-color: #F1EEEB;
+	}
+
+
+	table.head-wrap 
+	{ 
+		width: 100%; 
+		min-height: 150px;
+		height: 150px;
+		background-image: url('https://www.absa.co.za/content/dam/south-africa/absa/dsp/header.jpg');
+		background-size: cover;
+		background-position: center top;
+		background-color: #252E3C;
+	}
+
+	.header.container table td.logo { padding: 15px; }
+	.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+	table.body-wrap 
+	{ 
+		width: 100%;
+		background-color: #fff;
+		padding: 40px 0;
+	}
+
+
+	.footer-wrap
+	{
+		background-color: #F1EEEB;
+		min-height: 100px;
+		margin-top:20px;
+		padding: 10px;
+		padding-top: 30px;
+	}
+	table.footer-wrap { width: 100%;	clear:both!important;
+	}
+	.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+	.footer-wrap .container td.content p {
+		font-size:10px;
+		font-weight: bold;
+		
+	}
+
+
+	h1,h2,h3,h4,h5,h6,td {
+	font-family: "Source Sans Pro","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#8C8C8C;
+	}
+	
+
+	h1 { font-weight:500; font-size: 18px;}
+	
+
+
+	
+	
+	.container {
+		display:block!important;
+		max-width:600px!important;
+		margin:0 auto!important; /* makes it centered */
+		clear:both!important;
+	}
+
+	
+	.content {
+		padding:30px;
+		max-width:600px;
+		margin:0 auto;
+		display:block; 
+		text-align: left;
+	}
+
+	.content table { width: 100%; }
+
+
+	
+	.clear { display: block; clear: both; }
+
+
+	.header
+	{
+		margin: 0px 0;
+		padding: 0 35px;
+		min-width: 80%;
+		max-width: 80%;
+	}
+	.center
+	{
+		text-align: center;
+	}
+	.left
+	{
+		text-align: left;
+		margin-left: 20px;
+	}
+	.copy
+	{
+		font-size: 15px;
+		padding: 10px 0;
+		text-align: left !important;
+		color: #8C8C8C;
+	}
+	.copy.no-pad
+	{
+		padding: 0;
+	}
+	.copy-list
+	{
+		font-size: 15px;
+		padding: 8px 0;
+		text-align: left !important;
+		color: #8C8C8C;
+	}
+	.copy-info
+	{
+		font-size: 12px;
+		padding-top: 5px;
+		margin-left: 28px;
+		text-align: left !important;
+		color: #8C8C8C;
+	}
+	strong.copy
+	{
+		font-size: 12px;
+	}
+	.footer-wrap .container
+	{
+		text-align: center;
+		min-width: 100%;
+	}
+	.disclaimer
+	{
+		padding-top: 50px;
+	}
+	.disclaimer, .disclaimer *
+	{
+		font-size: 10px;
+		color: #555555;
+		padding-top: 5px;
+	}
+	.blue
+	{
+		color: #596275!important;
+		text-decoration: none!important;
+	}
+	.border
+	{
+		border: 1px solid #EBF0F3;
+		display: inline-block;
+		margin-top: 20px;
+		border-radius: 5px;
+	}
+	.phone
+	{
+		height: 20px;
+		width: auto;
+		/*width: 12px;*/
+		margin-right: 10px;
+		position: relative;
+		top: 0px;
+	}
+	.number
+	{
+		color: #596275;
+		font-size: 26px;
+		font-weight: 400;
+		text-decoration:none!important;
+		color:#000000;
+		border:none;
+		z-index: 9999;
+		padding-left: 6px;
+	}
+	.number a
+	{
+		text-decoration: none !important;
+		color: #596275;
+	}
+	.number-label
+	{
+		font-size: 12px;
+		color: #8C8C8C;
+		padding-bottom: 5px;
+		text-align: left;
+	}
+	.logo-div
+	{
+		padding-top: 50px;
+		text-align: right;
+	}
+	.logo
+	{
+		height: 30px;
+		display: inline-block;
+		margin-right: 20px;
+	}
+	.tick
+	{
+		height: 11px;
+		width:1 4px;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	a span
+	{
+  		position: static !important;
+  		clip: auto;
+	}
+
+	.accessible .number a
+	{
+		color: #252E3C;
+	}
+	.accessible .number-label
+	{
+		color: #252E3C;
+		
+	}
+
+	.accessible .copy,
+	.accessible .copy-list,
+	.accessible .copy-info,
+	.accessible h1, .accessible td 
+	{
+		color: #596275;
+	}
+	
+	.accessible .disclaimer, .accessible .disclaimer *
+	{
+		color: #252E3C;
+		padding-top: 5px;
+	}
+	.accessible .blue
+	{
+		color: #252E3C!important;
+	}
+	
+	ul{
+		margin-left:20px;
+	}
+	
+	.blue{
+		text-align: left;
+		margin: 0px 0;
+		padding: 0 35px;
+		min-width: 80%;
+		max-width: 80%;
+	}
+	
+</style>
+</head>
+ 
+<body class="">
+
+<!-- HEADER -->
+<table class="head-wrap">
+	<tr>
+		<td></td>
+		<td class="container logo-div">
+			<img src="https://www.absa.co.za/content/dam/south-africa/absa/dsp/logo.png" width="132" height="30" alt="Absa logo"/>
+		</td>
+		<td></td>
+	</tr>
+</table><!-- /HEADER -->
+
+
+<!-- BODY -->
+<table class="body-wrap">
+	<tr>
+		<td></td>
+		<td class="container" bgcolor="#FFFFFF">
+		<strong class="blue">Dear Private Bank Team,</strong>
+			<div class="content border">
+				<blockquote>
+
+                                        This is an auto generated lead from DSP. Please see the client details below.<p /><br>
+
+                                        <b>Case Details:</b><br />
+                                        Basket Number: <#BasketID#>
+                                <br />
+                                        Sybrin Case Number: <#Idx1#>
+                                    <p /><br>
+
+                                        <b>Customer Information:</b><br />
+                                        <#TitleValue#>
+                                        ,<#FirstName#>
+                                            ,<#LastName#>
+                                                ,<#IdentityID#>
+                                                    ,<#PostalCity#>
+                                                        <p /><br>
+
+                                        Preferred Contact Method: <#PreferredContactMethodValue#>
+                                                            <br />
+                                        Cell Number: <#GSMNumber#>
+                                                                <br />
+                                        Email Address: <#EmailAddress#>
+                                                                    <br />
+                                        Occupation: <#OccupationValue#>
+                                                                        <p /><br>
+
+                                        <b>Products and Features selected:</b><br /><br>
+                                        <!--Header End Here-->
+                                        <!--Table1 Starts Here-->
+                                        <table class="table">
+                                            <tr class="header">
+                                                <td class="productHeader"><b>Product</b></td>
+                                                <td class="productHeader"><b>Monthly Price</b></td>
+                                            </tr>
+                                            <!-- Detail goes here -->
+                                            <tr>
+                                                <td class="productData"><#BanProductName#></td>
+                                                <td class="tableData"><#BanProductPriceRec#></td>
+                                            </tr>
+                                            <!-- Detail ends here -->
+                                            <!--Detail Goes Here-->
+                                            <tr>
+                                                <td class="productData"><i><#BanFeatureName#></i></td>
+                                                <td class="tableData"><i><#BanFeaturePriceRec#></i></td>
+                                            </tr>
+                                            <!--Detail End Here-->
+                                            <!--Detail goes here-->
+                                            <tr>
+                                                <td class="productData"><#NonProductName#></td>
+                                                <td class="tableData"><#NonProductPriceRec#></td>
+                                            </tr>
+                                            <!--Detail ends here-->
+                                            <!--Detail Starts Here-->
+                                            <tr>
+                                                <td class="productData"><i><#NonFeatureName#></i></td>
+                                                <td class="tableData"><i><#NonFeaturePriceRec#></i></td>
+                                            </tr>
+                                            <!--Detail Ends Here-->
+                                            <!--Detail goes here-->
+                                            <tr>
+                                                <td class="productData"><#LeadProductName#></td>
+                                                <td class="tableData"><#LeadProductPriceRec#></td>
+                                            </tr>
+                                            <!--Detail ends here-->
+                                            <!-- Footer begins here -->
+                                        </table>
+                                        <br />
+
+                                        <b>Services the client is interested in:</b><br />
+                                        Day-To-Day Banking: <#DayToDayBanking#>
+                                                                            <br />
+                                        Finance Solutions: <#FinanceSolutions#>
+                                                                                <br />
+                                        Wealth Creation: <#WealthCreation#>
+                                                                                    <br />
+                                        Wealth Protection: <#WealthProtection#>
+                                                                                        <br />
+                                        Wealth Preservation: <#WealthPreservation#>
+                                                                                            <p /><br>
+
+                                        <b>Life Stage selected:</b><br />
+                                        Build Acquire: <#BuildAcquire#>
+                                                                                                <p /><br>
+
+                                        <b>Kind Regards,</b><br>
+                                        <b>Absa</b><br>
+                                    </blockquote>
+			</div>
+		</td>
+		<td></td>
+	</tr>
+</table><!-- /BODY -->
+
+<!-- FOOTER -->
+<table class="footer-wrap">
+	
+	<tr>
+		<td></td>
+		<td class="container number-label">Absa contact centre
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td class="container number">
+			<a href="tel:0860100372">
+				<img alt="Call" class="phone" width="12" height="16" src="http://www.absa.co.za/content/dam/south-africa/absa/dsp/phone.png">0860 100 372
+			</a>
+		</td>
+		<td></td>
+	</tr>
+	<tr><td><br/><br/></td></tr>
+	<tr>
+		<td></td>
+		<td class="container">
+			<span class="disclaimer">Important restrictions, qualifications and disclaimers apply to this email. <strong class="blue">www.absa.co.za/disclaimer</strong></span>
+		</td>
+		<td></td>
+	</tr>
+	<tr><td><br/></td></tr>
+</table><!-- /FOOTER -->
+
+</body>
+</html>
